@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mi Página Básica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Página</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Sección de Inicio</h2>
+            <p>Esta es una página básica de ejemplo con HTML.</p>
+        </section>
+
+        <section id="about">
+            <h2>Acerca de</h2>
+            <p>Este es un sitio web simple para practicar la estructura básica de HTML.</p>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de este correo: <a href="mailto:ejemplo@correo.com">ejemplo@correo.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Página Básica</p>
+    </footer>
+</body>
+</html>
